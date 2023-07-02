@@ -36,6 +36,25 @@ header .header__right .header__image::after {
 }
 .Logo {
   height: 450px;
-  width: 450px;
+  width: 100%;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: bottom;
+}
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+  .Logo {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
