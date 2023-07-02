@@ -1,0 +1,28 @@
+.skills {
+  background-color: var(--light-tertiary-color);
+  scroll-margin-top: 15rem;
+}
+.skills .tertiary-title {
+  display: flex;
+  justify-content: center;
+}
+.skills .skills__content {
+  padding: 4rem;
+  text-align: center;
+}
+
+.skills .skills__content skills__skill {
+  max-width: 56rem;
+  margin: 0 auto 6rem;
+}
+
+.skills .skills__content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit);
+  gap: 2rem;
+}
+
+.icon {
+  width: 10rem;
+  height: 10rem;
+}
